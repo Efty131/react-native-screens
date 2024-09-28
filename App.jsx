@@ -1,13 +1,13 @@
-import { View } from 'react-native';
 import React from 'react';
-import AsyncStorageExample from './Components/AsyncStorageExample';
+import { View } from 'react-native';
+import One from './src/Components/One';
 
 const App = () => {
   return (
-    <View>
-      <AsyncStorageExample />
+    <View style={{height: '100%'}}>
+      <One />
     </View>
-  )
-}
+  );
+};
 
 export default App;
