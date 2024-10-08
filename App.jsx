@@ -1,12 +1,11 @@
 import React from 'react';
-import { View } from 'react-native';
-import One from './src/Components/One';
+import { View, Text } from 'react-native';
 
 const App = () => {
   return (
-    <View style={{height: '100%'}}>
-      <One />
-    </View>
+   <View className="flex-1">
+    <Text className="text-center text-6xl">Firebase Setup</Text>
+   </View>
   );
 };
 

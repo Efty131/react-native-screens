@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "274978014892",
+    "project_id": "react-native-learning-e1577",
+    "storage_bucket": "react-native-learning-e1577.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:274978014892:android:deaf8e485bafb88de8c109",
+        "android_client_info": {
+          "package_name": "com.secondapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAskY_V9YcuPebdLQSEi5JOrKI_T_4spM0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
