@@ -1,11 +1,12 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import { View } from 'react-native';
+import Register from './src/Components/Register';
 
 const App = () => {
   return (
-   <View className="flex-1">
-    <Text className="text-center text-6xl">Firebase Setup</Text>
-   </View>
+    <View className="flex-1">
+      <Register />
+    </View>
   );
 };
 
