@@ -25,3 +25,25 @@ export const registerUser = async (email, password) => {
         throw new Error(errMessage);
     }
 };
+
+// for login only authentic user
+export const loginUser = async (email, password) => {
+    try {
+        const  userCredential = await auth().signInWithEmailAndPassword(email, password);
+        const user = userCredential.user;
+        return {user, emailVerified: user.emailVerified};
+    } catch (error) {
+        let errMessage;
+        switch (error.code) {
+            case 'auth/wrong-password':
+                errMessage = 'Incorrect Password';
+                break;
+                case 'auth/user-not-found':
+                errMessage = 'No User Found';
+                break;
+            default:
+               errMessage = 'An Unknown error occured';
+        };
+        throw new Error(errMessage);
+    }
+};

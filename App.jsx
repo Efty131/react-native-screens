@@ -1,11 +1,11 @@
 import React from 'react';
 import { View } from 'react-native';
-import Register from './src/Components/Register';
+import Login from './src/Components/Login';
 
 const App = () => {
   return (
     <View className="flex-1">
-      <Register />
+     <Login />
     </View>
   );
 };
